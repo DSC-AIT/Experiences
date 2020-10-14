@@ -12,4 +12,4 @@ Take a look at the [Contributing](CONTRIBUTING.md) guide for ways to contribute 
 - Fork and download the repo
 - Navigate to the folder where you've saved your code
 
-If you need any help please feel free to contact [@Electromorhous](https://twitter.com/Electromorphous)
+If you need any help please feel free to contact [@Electromorphous](https://twitter.com/Electromorphous)
