@@ -1,5 +1,7 @@
 # Experiences 💻
 
+Published at [dsc-ait.github.io/Experiences/](https://dsc-ait.github.io/Experiences/)
+
 ## Welcome to the DSC AIT Experiences Repo!
 
 A website that showcases the experiences of open-source and programming in general, as experienced by the members of DSC AIT
