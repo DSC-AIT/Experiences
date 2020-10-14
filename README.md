@@ -2,9 +2,9 @@
 
 Published at [dsc-ait.github.io/Experiences/](https://dsc-ait.github.io/Experiences/)
 
-## Welcome to the DSC AIT Experiences Repo!
+## Welcome to the DSC AIT Experiences repo!
 
-A website that showcases the experiences of open-source and programming in general, as experienced by the members of DSC AIT
+This is a website that showcases the experiences of open-source and programming in general, as experienced by the members of DSC AIT
 
 If this is your first time contributing to open-source and you know the basics of HTML, CSS and Javascript then this is the place for you!
 
