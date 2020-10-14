@@ -1,29 +1,14 @@
-# Experiences
+# Experiences 💻
 ### A website that showcases the experiences of open-source and programming in general, as experienced by the members of DSC AIT
 
+Welcome to the DSC AIT Experiences Repo!
 
-### ** How to Contribute **
+If this is your first time contributing to open-source and you know the basics of HTML, CSS and Javascript then this is the place for you!
 
-Within the Pages folder create your own folder following the naming convention "Name_USN" to add to the main website. You can write about any tricks or what you've learnt/your experience of Hacktoberfest (think like an article or blog post). If not about open-source, you can write about any of your experiences as a dev that you might want to share with us.
+Take a look at the [Contributing](CONTRIBUTING.md) guide for ways to contribute to the project.
 
-After having made the some files and written some code make your Pull Request. When you think you have finished the entire webpage you can add a link/card to your page from the main index.html homepage with your name and any picture of your choice from ./Pictures folder.
+### Instructions For Use:
+- Fork and download the repo
+- Navigate to the folder where you've saved your code
 
-
-#### Before you do new work on the repo, you should pull any updates in from this original repo like this:
-
-```
-
-git pull
-
-```
-
-This takes all the changes on this repo and applies them to the fork to keep them in sync
-If you need more details to understand this, feel free to reach out to [@Electromorphous](https://twitter.com/Electromorphous) or [@jeevansurendran](https://twitter.com/jeevansurendran)  :)
-
-### ** RULES **: 
-
-**-** No explicit content
-
-**-** Any images should be optimized for web
-
-**-** Changes made to any files (except the Pages folder) will be marked as invalid unless you raise an issue and get the go ahead first before making your pull request.**
+If you need any help please feel free to contact [@Electromorhous](https://twitter.com/Electromorphous)
