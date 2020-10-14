@@ -1,6 +1,6 @@
-### Experiences 💻
+# Experiences 💻
 
-#### Welcome to the DSC AIT Experiences Repo!
+## Welcome to the DSC AIT Experiences Repo!
 
 A website that showcases the experiences of open-source and programming in general, as experienced by the members of DSC AIT
 
