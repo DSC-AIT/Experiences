@@ -12,9 +12,13 @@ body {
   text-align: center;
 }
 
+body img {
+  width: 200px;
+  margin: 40px 0;
+}
+
 body h1 {
-  margin: 10px 5%;
-  margin-top: 200px;
+  margin: 0 5%;
   font-weight: 400;
   font-size: 2.5rem;
 }
@@ -22,7 +26,7 @@ body h1 {
 body h3 {
   font-weight: 400;
   margin-top: 30px;
-  margin-bottom: 300px;
+  margin-bottom: 250px;
 }
 
 body .container {
@@ -59,6 +63,7 @@ body .container a .card-content img {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 20px;
+  margin: 0;
 }
 
 body .container a .card-content span {
