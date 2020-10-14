@@ -52,8 +52,8 @@ body .container a {
   padding: 20px;
   border-radius: 20px;
   height: 300px;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -80,6 +80,13 @@ body .container a .card-content span {
 body .container a:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+body .container a:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
