@@ -21,4 +21,8 @@ If you need more details to understand this, feel free to reach out to [@Electro
 
 **-** Never make a PR on the main branch. Such PRs will be ignored.
 
+**-** No modifications should be made to any files other than the index.html and the Pages folder. Such PRs will be ignored.
+
+**-** The only changes to be made in the index.html file are to add your own card.
+
 **-** Any images should be optimized for web.
