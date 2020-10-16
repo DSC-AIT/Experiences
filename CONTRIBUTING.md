@@ -17,10 +17,8 @@ If you need more details to understand this, feel free to reach out to [@Electro
 
 ### RULES:
 
-**-** No explicit content
+**-** No explicit content.
 
-**-** Never make a PR on the main branch. Such PRs will be marked invalid.
+**-** Never make a PR on the main branch. Such PRs will be ignored.
 
-**-** Any images should be optimized for web
-
-**-** Changes made to any files (except the Pages folder) will be marked as invalid unless you raise an issue and get the go ahead first before making your pull request.\*\*
+**-** Any images should be optimized for web.
