@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <title>Raja_kumar</title>
+</head>
+<body>
+            <section id="first">
+                <div class="bbox theme1" style="text-align: center;font-size: 2rem;color: cornsilk;">
+                    <button id="btn" class="cbtn1">change mode</button>
+                    <h1>Hello!</h1>
+                </div>
+                <div class="fbbox">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-fs">
+                            <img src="img/mypic.jpg" alt="" style="width: 600px; height: 300px;">
+                        </div>
+                        <div class="flip-card-bs">
+                            <p>I am Raja kumar and i'm just starting second year of my Computer science studies at <a href="https://www.acharya.ac.in/">AIT</a> collage,before lockdown i was quite confuse in getting upto the track of my studies,but this lockdown helped me in gaining confidence by learning basics of my studies.</p>
+                            <p>As i am a begineer 'open source' is new for me.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="second">
+                <div class="container theme1">
+
+                    <div class="heading" style="color: cornsilk;">
+                        <h2>Experiences</h2>
+                    </div>
+                    <div class="box">
+                        <div class="card" style="width: 20rem;height: 13rem;">
+                            <img src="img/code.png" class="img" alt="..."  style="width:325px;height:208px;">
+                            <div class="card-body">
+                              <p class="para">During lockdown i learned <a href="https://www.tutorialspoint.com/cprogramming/index.htm" target="_blank">C</a> and <a href="https://www.tutorialspoint.com/cplusplus/index.htm" target="_blank">C++</a>.One of my friends suggested me to join online platform <a href="https://www.hackerrank.com/rajasingh8889" target="_blank">HACKERRANK</a> and <a href="https://www.codechef.com/users/rajasingh8889" target="_blank">CODECHEF</a> for competetive programing.Before it was quit difficult for me to get all this new things but my interest towards coding didn't let me backout and my continuation in coding made everyday  <strong>better than previous day</strong>.</p>
+                            </div>
+                          </div>
+                        <div class="card" style="width: 20rem;height: 13rem;">
+                            <img src="img/web.jpg" class="img" alt="..."  style="width:325px;height:208px;">
+                            <div class="card-body">
+                              <p class="para">Earlier I was very eager to learn web development, therefore i started learning <a href="https://www.w3schools.com/html/" target="_blank">HTML</a>, <a href="https://www.w3schools.com/css/" target="_blank">CSS</a> and <a href="http://w3schools.com/js/" target="_blank">JAVASCRIPT</a> for front end.I learned <a href="https://docs.djangoproject.com/en/3.1/" target="_blank">DJANGO</a> for backend in the period of lockdown.</p>
+                            </div>
+                          </div>
+                        <div class="card" style="width: 20rem;height: 13rem;">
+                            <img src="img/photo.jpg" class="img" alt="..."  style="width:325px;height:208px;">
+                            <div class="card-body">
+                              <p class="para">Apart from coding i am fond of photography, whenever i am free in my mean time i take random clicks. @<a href="https://www.facebook.com/Raja-Photography-302737043444725" target="_blank"> Rajaphotography</a> and @<a href="https://www.instagram.com/the_king_clicks/" target="_blank">the_King_clicks</a> are my pages where i post my photography art.</p>
+                            </div>
+                          </div>
+
+                    </div>
+                </div>
+                
+            </section>
+
+            <section id="third" class="theme1">
+                <div id="connect">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100003735484571" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="https://www.instagram.com/_rajasingh10_/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="https://www.linkedin.com/in/raja-kumar-00a6a51b1/" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+            
+            
+                        <li>
+                            <a href="https://github.com/rajasingh10" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+            
+            
+                    </ul>
+            
+                </div>
+            </section>
+      <script>
+let btn = document.querySelector('#btn');
+let first = document.querySelector('.bbox');
+let second = document.querySelector('.container');
+let third = document.querySelector('#third');
+let c=1;
+btn.addEventListener('click', function (e) {
+    if(e.isTrusted){
+    c+=1;
+    }
+    if(c%2==0){
+        btn.classList.remove('cbtn1')
+        first.classList.remove('theme1')
+        second.classList.remove('theme1')
+        third.classList.remove('theme1')
+        btn.classList.add('cbtn2')
+        first.classList.add('theme2')
+        second.classList.add('theme2')
+        third.classList.add('theme2')
+    }
+    else{
+        btn.classList.remove('cbtn2')
+        first.classList.remove('theme2')
+        second.classList.remove('theme2')
+        third.classList.remove('theme2')
+        btn.classList.add('cbtn1')
+        first.classList.add('theme1')
+        second.classList.add('theme1')
+        third.classList.add('theme1')
+    }
+    
+})
+      </script>      
+</body>
+</html>
